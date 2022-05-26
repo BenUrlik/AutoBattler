@@ -956,7 +956,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2075418808}
-        m_TargetAssemblyTypeName: QuitButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
         m_MethodName: quitGame
         m_Mode: 1
         m_Arguments:
@@ -1014,6 +1014,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2075418803}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 087c5900f1ac70e4c92c59a428534c0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 34578b410e7f7d947b6303a260d031de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
