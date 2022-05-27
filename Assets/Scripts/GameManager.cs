@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
         // Loop until no units are left on either side
 
         // Player unit attacks
-        // Unit 01.Attack();
+        // Unit 01.Attack(Enemy Unit 01);
         // Enemy unit gets hit (activate the effects of the traits)
         
         // Enemy unit attacks
