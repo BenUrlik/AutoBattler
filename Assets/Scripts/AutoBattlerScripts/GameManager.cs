@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour
         BattlePhase,
         Victory,
         Defeat,
-        BuyStage,
         Pause
     };
     

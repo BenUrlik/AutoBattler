@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    public enum Traits { Head, Legs, Arms, Body };
-    public enum Stats { Attack, Defense, Health, Speed };
+    public enum Traits { Human, Snake, Bull, Shark };
     public int Level;
     public int UnitCount;
-
-    void Awake() {
-        RandomizeBodyParts();
-    }
+    public int Attack, Defense, Health, Speed;
+    public Traits Head, Legs, Arms, Body;
 
     void Start() {
         Level = 1;
         UnitCount = 1;
+        RandomizeBodyParts();
     }
 
     void Update() {
@@ -25,18 +23,18 @@ public class Character : MonoBehaviour
     }
 
     void RandomizeBodyParts() {
-        // Legs: Select a random number and choose body part
-        // Arms: Select a random number and choose body part 
-        // Head: Select a random number and choose body part
-        // Body: Select a random number and choose body part
+        Head = Traits.Human;
+        Body = Traits.Human;
+        Legs = Traits.Human;
+        Arms = Traits.Human;
 
-        // Enum.health += 20; 
-        // Enum.defense += 20; 
-        // Enum.speed += 20;
-        // Enum.attack += 20;  
+        Attack = 20; 
+        Defense = 20; 
+        Health = 20;
+        Speed = 20;  
     }
 
-    void UpdateTraits(Traits bodyPart, Traits newTrait) {
-        // Head = ? :
+    void UpdateTraits(string BodyPart, Traits newTrait) {
+        
     }
 }
